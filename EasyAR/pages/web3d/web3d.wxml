@@ -1,0 +1,2 @@
+<!--pages/web3d/web3d.wxml-->
+<web-view src="{{web3DUrl}}" wx:if="webTrue"></web-view>

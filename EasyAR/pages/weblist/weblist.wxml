@@ -1,0 +1,4 @@
+<!--pages/weblist.wxml-->
+<view wx:for="{{webListDUrl}}" wx:key="index" class="webTabList">
+  <button bindtap="btnurl" data-url="{{item.url}}" class="btn">{{item.name}}</button>
+</view>

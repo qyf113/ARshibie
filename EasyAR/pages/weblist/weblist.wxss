@@ -1,0 +1,19 @@
+/* pages/weblist.wxss */
+.webTabList {
+  padding: 15rpx;
+  border-bottom: 1rpx #F2F6FC solid;
+  text-align: center;
+}
+.btn {
+  border: none;
+  width:550rpx !important;
+  padding: 25rpx;
+  background: linear-gradient(#fae74e, #ff9a2f);
+  border-radius: 10rpx 70rpx;
+  color: #fff;
+  font-size: 32rpx;
+  box-shadow: 0 0 20rpx #eee;
+}
+button::after {
+  border: none;
+}
